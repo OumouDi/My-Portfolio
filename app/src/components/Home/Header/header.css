@@ -1,0 +1,43 @@
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius:30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.nav li{
+    list-style: none;
+    padding: 8px;
+    width: 80px;
+}
+
+.nav li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 8px;
+}
+
+
+.nav li a:hover{
+    background-color: rgb(197, 192, 199);
+    color: #0a0909;
+}
+
+.nav li a:active,
+.nav li a:focus{
+    background-color: rgb(30, 5, 42);
+    color: #ffffff;
+}
