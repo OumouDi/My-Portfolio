@@ -1,0 +1,17 @@
+
+.home{
+    margin :40px 30px;
+}
+
+
+.myname{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mypres{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: flex-start;
+}

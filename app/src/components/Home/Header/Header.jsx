@@ -1,10 +1,12 @@
-import React from "react";
+import {React, useEffect,useState} from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 
 const Header = () => {
+
+
   return (
     <div className="header-container">
       <nav className="nav">

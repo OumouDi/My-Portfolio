@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Introduce from '../Introduce/Introduce';
+import SkillsButton from '../Skillsbutton/SkillsButton';
+import Keyskills from '../Keyskills/Keyskills';
 
 const Home = () => {
   return (
-    <div>
-      <h1></h1>
+    <div className='home'>
+      <Introduce />
+      <SkillsButton />
+      <Keyskills />
     </div>
   )
 }
