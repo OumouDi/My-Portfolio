@@ -2,6 +2,7 @@ import React from 'react';
 import Introduce from '../Introduce/Introduce';
 import SkillsButton from '../Skillsbutton/SkillsButton';
 import Keyskills from '../Keyskills/Keyskills';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Introduce />
       <SkillsButton />
       <Keyskills />
+      <Projects />
     </div>
   )
 }

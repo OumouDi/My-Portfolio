@@ -8,17 +8,14 @@
     margin-right: 40px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #b7afb8;
     color: black;
     font-weight: bold;
     border: none;
     cursor: pointer;
 }
 
-.skillsButton button:hover{
-    transition: 0.5s;
-    background-color: #b7afb8;
-}
+
 
 .skillsButton .icon{
     margin-right: 10px;

@@ -7,7 +7,7 @@ const Introduce = () => {
 
   useEffect(() => {
     const fullName = "Hello, I'm Oumou DIAKHABY";
-    const presentationText = "Passionate about web development, I'am looking for new challenges.";
+    const presentationText = "Passionate about web development, looking for new challenges.";
 
     let i = 0;
 
