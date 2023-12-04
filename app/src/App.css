@@ -5,14 +5,16 @@
  }
 
 
+
 .App {
   text-align: center;
   background-image: url('../src/assets/background.jpg');
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   overflow: hidden;
-  height: 200vh;
+  height: max-content;
 }
 

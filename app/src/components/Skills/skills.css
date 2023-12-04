@@ -1,0 +1,46 @@
+/* skills.css */
+.skills {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 0.2px solid white;
+    padding-top: 20px;
+  }
+  
+  .square-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skills h1 {
+    margin-bottom: 35px;
+  }
+  
+  .square {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(220, 223, 224);
+    margin: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 40px;
+
+  }
+  
+  .skills-img {
+    width: 85%;
+    height: 60%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .square:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s; 
+  }
+  

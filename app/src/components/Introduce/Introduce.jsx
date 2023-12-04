@@ -3,11 +3,11 @@ import './introduce.css';
 
 const Introduce = () => {
   const [name, setName] = useState("");
-  const [presentation, setPresentation] = useState("");
+
 
   useEffect(() => {
     const fullName = "Hello, I'm Oumou DIAKHABY";
-    const presentationText = "Passionate about web development, looking for new challenges.";
+
 
     let i = 0;
 
@@ -16,20 +16,14 @@ const Introduce = () => {
       i += 1;
       if (i === fullName.length) {
         clearInterval(nameInterval);
-
-        let j = 0;
-        const presentationInterval = setInterval(() => {
-          setPresentation(presentationText.substring(0, j + 1));
-          j += 1;
-          if (j === presentationText.length) clearInterval(presentationInterval);
-        }, 10);
       }
-    },25);
+    }
+      , 50);
 
     return () => {
       clearInterval(nameInterval);
     };
-  }, []); 
+  }, []);
 
   return (
     <div className='introduce-container'>
@@ -37,7 +31,7 @@ const Introduce = () => {
         <h1>{name}</h1>
       </div>
       <div className="presentation">
-        <p className='mypres'>{presentation}</p>
+        <p className='mypres'>Passionate about web development, looking for new challenges</p>
       </div>
     </div>
   );
