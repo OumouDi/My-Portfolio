@@ -1,0 +1,51 @@
+.contact-container{
+    margin-top: 50px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.contact-container h1{
+    margin-bottom: 40px;
+}
+
+
+.email,
+.numero{
+    background-color: #b7afb8;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    width: 30%;
+    margin-left: 35%;
+}
+
+.email:hover,
+.numero:hover{
+    transform : scale(1.1);
+}
+
+
+.email h3,
+.numero h3{
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+
+.numero .icon{
+    display: flex;
+    color: black;
+    font-size: 30px;
+}
+
+
+.email .icon{
+    font-size: 40px;
+    color: black;
+}
+
+
