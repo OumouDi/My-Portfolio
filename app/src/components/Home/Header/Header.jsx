@@ -1,34 +1,76 @@
-import {React, useEffect,useState} from "react";
+import { React, useEffect, useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { BsGithub } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 
 const Header = () => {
-
-
   return (
     <div className="header-container">
       <nav className="nav">
         <ul>
           <li>
-            <Link to="/" className="active">Home</Link>
+            <Link activeClass="active"> Home </Link>
           </li>
           <li>
-            <Link to="/project">Projects</Link>
+            <ScrollLink
+              activeClass="active"
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </ScrollLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <ScrollLink
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Skills
+            </ScrollLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <ScrollLink
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              About
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </ScrollLink>
           </li>
         </ul>
       </nav>
       <div className="social-media">
-        <Link to="https://github.com/OumouDi/"><BsGithub  className="social-icon"/></Link>
-        <Link to="https://www.linkedin.com/in/oumou-diakhaby-9a7941199/"><SiLinkedin className="social-icon" /></Link>
-        </div>
+        <a href="https://github.com/OumouDi/" target="_blank" rel="noopener noreferrer">
+          <BsGithub className="social-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/oumou-diakhaby-9a7941199/" target="_blank" rel="noopener noreferrer">
+          <SiLinkedin className="social-icon" />
+        </a>
+      </div>
     </div>
   );
 };

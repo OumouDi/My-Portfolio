@@ -5,7 +5,7 @@ import { IoIosMailUnread } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className='contact-container'> 
+    <div className='contact-container' id="contact"> 
      <h1>Contact-me !</h1>
      <div className='contact-info'>
         <div className='email'>

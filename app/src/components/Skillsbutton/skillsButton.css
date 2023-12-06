@@ -2,6 +2,7 @@
 .skillsButton{
     margin-top: 30px;
     display: flex;
+    transform: scale(1,1);
 }
 
 .skillsButton button{
@@ -12,7 +13,11 @@
     color: black;
     font-weight: bold;
     border: none;
-    cursor: pointer;
+}
+
+
+.skillsButton button:hover{
+  transform: scale(1.1);
 }
 
 
