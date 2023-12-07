@@ -49,3 +49,14 @@
 }
 
 
+
+
+@media screen and (max-width:590px){
+    .contact-container h1{
+        font-size: 25px;
+    }
+
+}
+
+
+

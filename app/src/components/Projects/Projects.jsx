@@ -5,8 +5,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import projectData from './projectData';
 import { Link } from 'react-router-dom';
-import { BsGithub } from "react-icons/bs";
-import { Link as ScrollLink } from 'react-scroll';
 
 
 const Projects = () => {

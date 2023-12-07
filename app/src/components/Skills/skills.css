@@ -1,10 +1,11 @@
 /* skills.css */
 .skills {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 95px;
     border-radius: 20px;
     border: 0.2px solid white;
     padding-top: 20px;
+    margin-bottom: 80px;
   }
   
   .square-container {
@@ -26,7 +27,6 @@
     border-radius: 50%;
     overflow: hidden;
     padding: 40px;
-
   }
   
   .skills-img {
@@ -42,4 +42,27 @@
     transform: scale(1.1);
     transition: transform 0.2s; 
   }
+
   
+
+
+
+@media screen and (max-width:590px){
+
+  .square {
+  
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+  }
+  
+
+  .skills h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+    
+    
+}
+
+

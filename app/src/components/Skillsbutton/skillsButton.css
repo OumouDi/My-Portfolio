@@ -1,6 +1,6 @@
 
 .skillsButton{
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     transform: scale(1,1);
 }
@@ -24,4 +24,15 @@
 
 .skillsButton .icon{
     margin-right: 10px;
+}
+
+
+@media screen and (max-width:550px){
+    .skillsButton button{
+        font-size: 12px;
+        padding: 7px;
+       
+    }
+    
+
 }
