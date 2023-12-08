@@ -1,62 +1,74 @@
-.contact-container{
-    margin-top: 50px;
-    align-items: center; 
-    justify-content: center;
+.contact-container {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-.contact-container h1{
-    margin-bottom: 40px;
+.contact-container h1 {
+  margin-bottom: 40px;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
 .email,
-.numero{
-    background-color: #b7afb8;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center; 
-    width: 30%;
-    margin-left: 35%;
+.numero {
+  background-color: #b7afb8;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 50px;
 }
 
 .email:hover,
-.numero:hover{
-    transform : scale(1.1);
+.numero:hover {
+  transform: scale(1.1);
 }
 
-
 .email h3,
-.numero h3{
+.numero h3 {
   font-weight: bold;
   color: black;
   font-size: 18px;
   margin-left: 20px;
 }
 
-
-.numero .icon{
-    display: flex;
-    color: black;
-    font-size: 30px;
-}
-
-
 .email .icon{
-    font-size: 40px;
-    color: black;
+  font-size: 40px;
+  color: black;
 }
 
+.numero .icon {
+  font-size: 30px;
+  color: black;
+}
 
+@media screen and (max-width: 590px) {
 
-
-@media screen and (max-width:590px){
-    .contact-container h1{
+    .contact-container h1 {
         font-size: 25px;
     }
 
+  .email h3,
+  .numero h3 {
+    font-size: 15px;
+  }
+
+  .numero .icon,
+  .email .icon {
+    font-size: 20px;
+  }
+
+  .email,
+  .numero {
+    width: 300px;
+  }
 }
-
-
-
