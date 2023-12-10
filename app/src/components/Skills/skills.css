@@ -37,6 +37,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  #github{
+    height: 50%;
+  }
   
   .square:hover {
     transform: scale(1.1);

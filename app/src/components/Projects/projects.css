@@ -1,10 +1,10 @@
-.projects{
+.projects {
     width: 100%;
 
     margin-top: 120px;
 }
 
-.project-slide{
+.project-slide {
     color: black;
     cursor: pointer;
     width: 100%;
@@ -12,16 +12,16 @@
     padding-bottom: 20px;
 }
 
-.slider{
+.slider {
     margin: 60px;
 }
 
-.projectImg-desc{
+.projectImg-desc {
     margin-right: 20px;
 }
 
 
-.projectImg{
+.projectImg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,55 +30,47 @@
 
 
 
-.projectImg a{
+.projectImg a {
     outline: none;
 }
 
 
 
-.projectImg img:hover{
+.projectImg img:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
-  }
+}
 
 
-  @media screen and (max-width: 1040px) {
- 
-    .projectImg img{
-     width: 90%;
-     background-repeat: no-repeat;
-    } 
-  }
-  
+@media screen and (max-width: 1040px) {
+
+    .projectImg img {
+        width: 90%;
+        background-repeat: no-repeat;
+    }
+}
 
 
-@media screen and (max-width:590px){
-    .projects{
+
+@media screen and (max-width:590px) {
+    .projects {
         margin-top: 30px;
     }
 
-    .projects h1{
+    .projects h1 {
         font-size: 25px;
         margin-bottom: 30px;
     }
 
 
-    .slider{
+    .slider {
         margin: 20px;
     }
-    
-    
-    .projectImg-desc{
+
+
+    .projectImg-desc {
         margin-right: 20px;
     }
-    
-    
+
+
 }
-
-
-
-    
-    
-
-
-

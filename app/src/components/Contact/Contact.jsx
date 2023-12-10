@@ -14,7 +14,6 @@ const Contact = () => {
         </div>
         <div className='numero'>
         <FaPhoneVolume className='icon'/>
-
             <h3>+33 6 23 13 40 85</h3>
      </div>
      </div>

@@ -1,9 +1,18 @@
-.scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-  
-  .scroll-to-top.show {
-    display: block; 
-  }
+.scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #0b1e2a;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.scroll-button:hover {
+  background-color: rgb(49, 53, 56);
+
+}

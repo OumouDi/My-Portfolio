@@ -11,7 +11,7 @@ const Keyskills = () => {
         <div className="key">
           <FaLaptopCode className='icon' />
             <h1>Full Stack</h1>
-            <p>I have skills in JavaScript, React, React Native, and Node.js to create high-performance and intuitive web and mobile applications.</p>
+            <p>My skills in JavaScript, React, React Native, and Node.js enable me to create high-performance and intuitive web and mobile applications.</p>
         </div>
         <div className="key">
           <RiTeamLine className='icon' />

@@ -1,7 +1,6 @@
 import { React, useEffect, useState } from "react";
 import "./header.css";
-import { Link } from "react-router-dom";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { BsGithub } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -15,14 +14,12 @@ const Header = () => {
 
   return (
     <div className="header-container">
+      <div className="responsive-navbar">
       <div className="burger-icon" onClick={toggleNav}>
         {isNavOpen ? <FaTimes /> : <FaBars />}
       </div>
       <nav className={`nav ${isNavOpen ? "active" : ""}`}>
-          <ul>
-            <li>
-              <Link activeClass="active"> Home </Link>
-            </li>
+           <ul>
             <li>
               <ScrollLink
                 activeClass="active"
@@ -73,6 +70,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+        </div>
 
 
       <div className="social-media">

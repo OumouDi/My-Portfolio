@@ -11,7 +11,7 @@ import postgres from "../../assets/postgres.png";
 const Skills = () => {
   return (
     <div className="skills" id="skills">
-              <h1>Key Skills</h1>
+      <h1>Key Skills</h1>
       <div className="square-container">
         <div className="square">
           <img src={htmlCss} alt="html-css" className="skills-img" />
@@ -32,9 +32,8 @@ const Skills = () => {
           <img src={postgres} alt="postgres" className="skills-img" />
         </div>
         <div className="square">
-          <img src={github} alt="github" className="skills-img" />
+          <img src={github} alt="github" className="skills-img" id="github" />
         </div>
-    
       </div>
     </div>
   );

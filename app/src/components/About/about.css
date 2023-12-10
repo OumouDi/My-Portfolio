@@ -1,4 +1,4 @@
-.about-container{
+.about-container {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -7,13 +7,13 @@
 
 
 
-.about-container h1{
+.about-container h1 {
     margin-bottom: 40px;
-    color:white;
+    color: white;
 }
 
 
-.about-container p{
+.about-container p {
     color: white;
     text-align: center;
     font-size: 15px;
@@ -22,28 +22,13 @@
 
 
 
-@media screen and (max-width:590px){
-    .about-container h1{
+@media screen and (max-width:590px) {
+    .about-container h1 {
         font-size: 25px;
     }
 
-    .about-container p{
+    .about-container p {
         font-size: 12px;
     }
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

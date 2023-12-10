@@ -31,7 +31,7 @@ const Introduce = () => {
         <h1>{name}</h1>
       </div>
       <div className="presentation">
-        <p className='mypres'>Passionate about web development, looking for new challenges</p>
+        <p className='mypres'>Passionate about web development, looking for new challenges.</p>
       </div>
     </div>
   );
