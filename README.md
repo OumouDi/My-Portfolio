@@ -1,7 +1,7 @@
 
 ###Installation
 
-Clone this repository
-Navigate to the project folder: cd app
-Install dependencies: npm install
-Start the application: npm start
+1. Clone this repository
+2. Navigate to the project folder: cd app
+3. Install dependencies: npm install
+4. Start the application: npm start
