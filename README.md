@@ -1,11 +1,11 @@
+ 
+Technologie :
 
-###Technologie
-
-React  
+- React  
 
 
 
-###Project installation
+Project installation :
 
 1. Clone this repository.
    
